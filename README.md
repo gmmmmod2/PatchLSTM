@@ -16,7 +16,7 @@
 
 ### 2. 运行半监督学习脚本
 
-进入 SemiSupervised 目录，按照脚本内的示例命令运行：
+SemiSupervised 目录中包含的是半监督打标模型，按照如下的示例命令运行即可：
 
 ```bash
 python .\SemiSupervised\SemiModulesTrain.py \
@@ -28,7 +28,7 @@ python .\SemiSupervised\SemiModulesTrain.py \
 
 ### 3. 数据预处理
 
-返回 Data 目录，运行预处理脚本：
+Data 目录中包含的是数据预处理脚本，按照如下的示例命令运行即可：
 
 ```bash
 python Data/DataProcessPipline.py \
@@ -43,7 +43,7 @@ python Data/DataProcessPipline.py \
 
 ### 4. 运行主模型
 
-使用 unified_pipeline 中的演示方法运行完整模型：
+unified_pipeline 为具体的模型训练代码，按如下命令运行完整模型：
 
 ```bash
 python unified_pipeline.py \
